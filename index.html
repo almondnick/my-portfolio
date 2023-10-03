@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Almond's Portfolio</title>
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -14,13 +14,57 @@
         <nav>
             <h1>Nick Almond</h1>
             <ul class="links">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section id="bio">
+            <div class="about-me">
+            <h2>About Me</h2>
+            <p>Hello! My name is Nick Almond and I am currently enrolled in Washington University in St. Louis's full stack development coding boot-camp. </p>
+            </div>
+            <div class="student-image">
+            <img src="./assets/images/profile pic.jpg" alt="Nick Almond's photograph">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-images">
+                <a href="https://almondnick.github.io/horiseon-challenge/" target="_blank"><img src="./assets/images/Horiseon Screenshot.png" alt="Professional people gathered around a table having a meeting."></a>
+                <p>Horiseon Challenge: Code Refactoring</p>
+            </div>
+            <div class="project-images">
+                <a href="https://almondnick.github.io/css-cheatsheet/" target="_blank"><img src="./assets/images/CSS Cheatsheet Screenshot.png" alt="6 blocks detailing CSS code snippets styled like a sunset with a black background."></a>
+                <p>CSS Cheatsheet</p>
+            </div>
+            <div class="project-images">
+                <img src="./assets/images/Rock Paper Scissors.jpg" alt="Cartoon of three hands playing rock, paper, scissors. One hand throwing rock, one hand throwing paper, one hand throwing scissors.">
+                <p>Rock, Paper, Scissors Game: Coming Soon!</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <ul>
+                    <li><a href="https://github.com/almondnick" target="_blank"><img class="icons" src="./assets/images/github icon.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/nick-almond-0a1b0a174" target="_blank"><img class="icons" src="./assets/images/linkedin icon.webp"></a></li>
+                    <li><a href="mailto:nickalmond14@gmail.com" target="_blank">Email</a></li>
+                    <li>314.808.3043</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&COPY; 2023 Nick Almond Productions</p>
+        </footer>
+    </main>
 </body>
 
 </html>
