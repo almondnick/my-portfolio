@@ -17,6 +17,7 @@ To use this website, click on any portion of the nav to be guided to that sectio
 Nick Almond - nickalmond14@gmail.com
 Github Pages Link - https://almondnick.github.io/my-portfolio/
 Screenshot -
+![Screenshot 2023-10-05 at 4 47 16 PM](https://github.com/almondnick/my-portfolio/assets/143033339/2533612b-ae73-4b79-9c9a-c7a4bd070109)
 
 
 ## Credits
